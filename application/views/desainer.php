@@ -23,11 +23,11 @@
 	</head>
 
 	<body>
-		
+
 	<!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-           <a class="navbar-brand js-scroll-trigger" href="<?php echo site_url()?>/Home"><img src="<?php echo base_url()?>/assets/img/logo.png" width="100px"></a>
+          <a class="navbar-brand js-scroll-trigger" href="<?php echo site_url()?>/Home"><img src="<?php echo base_url()?>/assets/img/logo.png" width="100px"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,7 +39,6 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Desainer">Desainer</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Foto">Produk</a>
             </li>
@@ -56,83 +55,27 @@
 
 		<!-- colom -->
 		<section id="contact">
+
 	      <div class="container">
-	     <h2 class="section-heading" style=" padding-left: 60px">
+	     <h2 class="section-heading" style="padding-left:	90px;">
 	     	<form class="form-inline my-2 my-lg-0">
 		      <input class="form-control mr-sm-2" type="search" placeholder="Apa Yang Anda Cari ?" aria-label="Search">
 		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		    
 		    </form>
+		    <br>
+		     <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Desainer">List Desainer</a>
+		     <br>
+		     <a href="<?php echo site_url()?>/Profil">
+		     	<img src="<?php echo base_url()?>/assets/img/johand.jpg" width="100%"></a>
+		     	<img src="<?php echo base_url()?>/assets/img/annisa.jpg" width="100%">
+		     	<img src="<?php echo base_url()?>/assets/img/nafi.jpg" width="100%">
+		     	<img src="<?php echo base_url()?>/assets/img/naufal.jpg" width="100%">
 		</h2>
-	        <div class="row">
-	          <div class="col-lg-5 mr-auto text-center">
-	            <p>
-	              <img src="<?php echo base_url()?>/assets/img/homeimg/5.png">
-	            </p>
-	          </div>
-	          <div class="col-lg-7 mx-auto text-left" style="padding-left:	10px;">
-	            <h2 class="section-heading">@Workspace.co</h2>
-	            <h4 class="section-heading">Rules</h4>
-	            <p>
-	            	<li>The Importance of Coworking Etiquette</li>
-	            	<li>Shared Office Etiquette</li>
-	            	<li>Shut yourself away or avoid the rest of the members</li>
-	            	<li>Book out meeting rooms for long recurring meetings</li>
-	            	<li>Be a positive presence and contribute to the community</li>
-	            </p>
-	            <div class="col-lg-4 mr-auto text-center" style="padding: 10px; margin-left: 300px">
-			        <a class="btn btn-dark btn-xl sr-button" href="#">JOIN</a>
-			      </div>
-	          </div>
-	        </div>
-	      </div>
 
-	      <div class="container">
-	        <div class="row">
-	          <div class="col-lg-5 mr-auto text-center">
-	            <p>
-	              <img src="<?php echo base_url()?>/assets/img/homeimg/6.png">
-	            </p>
-	          </div>
-	          <div class="col-lg-7 mx-auto text-left" style="padding-left:	10px;">
-	            <h2 class="section-heading">@Workspace.co</h2>
-	            <h4 class="section-heading">Rules</h4>
-	            <p>
-	            	<li>The Importance of Coworking Etiquette</li>
-	            	<li>Shared Office Etiquette</li>
-	            	<li>Shut yourself away or avoid the rest of the members</li>
-	            	<li>Book out meeting rooms for long recurring meetings</li>
-	            	<li>Be a positive presence and contribute to the community</li>
-	            </p>
-	            <div class="col-lg-4 mr-auto text-center" style="padding: 10px; margin-left: 300px">
-			        <a class="btn btn-dark btn-xl sr-button" href="#">JOIN</a>
-			      </div>
-	          </div>
-	        </div>
-	      </div>
+	            <br>
 
-	      <div class="container">
-	        <div class="row">
-	          <div class="col-lg-5 mr-auto text-center">
-	            <p>
-	              <img src="<?php echo base_url()?>/assets/img/homeimg/5.png">
-	            </p>
-	          </div>
-	          <div class="col-lg-7 mx-auto text-left" style="padding-left:	10px;">
-	            <h2 class="section-heading">@Workspace.co</h2>
-	            <h4 class="section-heading">Rules</h4>
-	            <p>
-	            	<li>The Importance of Coworking Etiquette</li>
-	            	<li>Shared Office Etiquette</li>
-	            	<li>Shut yourself away or avoid the rest of the members</li>
-	            	<li>Book out meeting rooms for long recurring meetings</li>
-	            	<li>Be a positive presence and contribute to the community</li>
-	            </p>
-	            <div class="col-lg-4 mr-auto text-center" style="padding: 10px; margin-left: 300px">
-			        <a class="btn btn-dark btn-xl sr-button" href="#">JOIN</a>
-			      </div>
-	          </div>
-	        </div>
-	      </div>
+	        
 
 	    </section>
 
