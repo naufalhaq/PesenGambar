@@ -83,6 +83,36 @@
 	          </div>
 	        </div>
 	      </div>
+
+	      <div class="container">
+	            <h2 class="section-heading" style="padding-left:	90px;">Produk Terbaik Untuk Kebutuhan Anda</h2>
+	            <br>
+	            <br>
+	        	<div class="row" style="padding-left:	90px;">
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/1.png" width="250" height="250">
+	              <div>@Annisa</div>
+	              <div>20 Agustus 2018</div>
+	            </div>
+	         	<div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/2.png" width="250" height="250">
+	              <div>@Abel</div>
+	              <div>08 September 2018</div>
+	            </div>
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/3.png" width="250" height="250">
+	              <div>@Nafi</div>
+	              <div>18 Juli 2018</div>
+	            </div>
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/4.png" width="250" height="250">
+	              <div>@Johan</div>
+	              <div>03 Maret 2018</div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+
 	    </section>
 
 
