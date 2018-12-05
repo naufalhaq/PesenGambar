@@ -23,7 +23,7 @@
 	</head>
 
 	<body>
-		
+
 		<!-- navbar -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,41 +51,14 @@
 
 		<!-- colom -->
 		<section id="contact">
-	      <div class="container">
-	        <div class="row">
-	          <div class="col-lg-7 mx-auto text-left" style="padding: 100px; margin-top: 100px">
-	            <h2 class="section-heading">Desainer Favorit Anda dan Bekerjasama Dengan Mereka</h2>
-	            <h4 class="section-heading">Temukan Desainer Anda Sekarang!</h4>
-	            <div class="col-lg-4 mr-auto text-center" style="padding: 100px; margin-left: 30px">
-			        <a class="btn btn-dark btn-xl sr-button" href="#">Find Desainer</a>
-			      </div>
-	          </div>
-	          <div class="col-lg-5 mr-auto text-center">
-	            <p>
-	              <img src="<?php echo base_url()?>/assets/img/1.png">
-	            </p>
-	          </div>
-	        </div>
-	      </div>
 
 	      <div class="container">
-	        <div class="row">
-	          <div class="col-lg-7 mx-auto text-left" style="padding-left:	100px;">
-	            <h2 class="section-heading">Posting Kebutuhan Anda dan Biarkan Desainer Memberikan Solusi</h2>
-	            <h4 class="section-heading">Kebutuhan Anda Ada Disini!</h4>
-	            <div class="col-lg-4 mr-auto text-center" style="padding: 100px; margin-left: 30px">	
-			      </div>
-	          </div>
-	          <div class="col-lg-5 mr-auto text-center">
-	            <p>
-	              <img src="<?php echo base_url()?>/assets/img/2.png">
-	            </p>
-	          </div>
-	        </div>
-	      </div>
-
-	      <div class="container">
-	            <h2 class="section-heading" style="padding-left:	90px;">Produk Terbaik Untuk Kebutuhan Anda</h2>
+	     <h2 class="section-heading" style="padding-left:	90px;">
+	     	<form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Apa Yang Anda Cari ?" aria-label="Search">
+		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		    </form>
+		</h2>
 	            <br>
 	            <br>
 	        	<div class="row" style="padding-left:	90px;">
@@ -110,6 +83,76 @@
 	              <div>03 Maret 2018</div>
 	            </div>
 	          </div>
+
+	          <div class="row" style="padding-left:	90px;">
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/1.png" width="250" height="250">
+	              <div>@Annisa</div>
+	              <div>20 Agustus 2018</div>
+	            </div>
+	         	<div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/2.png" width="250" height="250">
+	              <div>@Abel</div>
+	              <div>08 September 2018</div>
+	            </div>
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/3.png" width="250" height="250">
+	              <div>@Nafi</div>
+	              <div>18 Juli 2018</div>
+	            </div>
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/4.png" width="250" height="250">
+	              <div>@Johan</div>
+	              <div>03 Maret 2018</div>
+	            </div>
+	          </div>
+
+	          <div class="row" style="padding-left:	90px;">
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/1.png" width="250" height="250">
+	              <div>@Annisa</div>
+	              <div>20 Agustus 2018</div>
+	            </div>
+	         	<div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/2.png" width="250" height="250">
+	              <div>@Abel</div>
+	              <div>08 September 2018</div>
+	            </div>
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/3.png" width="250" height="250">
+	              <div>@Nafi</div>
+	              <div>18 Juli 2018</div>
+	            </div>
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/4.png" width="250" height="250">
+	              <div>@Johan</div>
+	              <div>03 Maret 2018</div>
+	            </div>
+	          </div>
+
+	          <div class="row" style="padding-left:	90px;">
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/1.png" width="250" height="250">
+	              <div>@Annisa</div>
+	              <div>20 Agustus 2018</div>
+	            </div>
+	         	<div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/2.png" width="250" height="250">
+	              <div>@Abel</div>
+	              <div>08 September 2018</div>
+	            </div>
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/3.png" width="250" height="250">
+	              <div>@Nafi</div>
+	              <div>18 Juli 2018</div>
+	            </div>
+	            <div class="col-lg-3">
+	              <img src="<?php echo base_url()?>/assets/img/homeimg/4.png" width="250" height="250">
+	              <div>@Johan</div>
+	              <div>03 Maret 2018</div>
+	            </div>
+	          </div>
+
 	        </div>
 	      </div>
 
