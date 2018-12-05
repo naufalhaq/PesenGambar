@@ -25,29 +25,31 @@
 	<body >
 
 <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-           <a class="navbar-brand js-scroll-trigger" href="<?php echo site_url()?>/Home"><img src="<?php echo base_url()?>/assets/img/logo.png" width="100px"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="<?php echo base_url()?>/assets/img/logo.png" style="min-width: 50px;max-width: 150px"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Kategori">Kategori</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Kategori"><font style="color: black">Kategori</font></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Desainer">Desainer</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Foto">Produk</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Desainer"><font style="color: black">Desainer</font></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Kompetisi">Kompetisi</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Produk"><font style="color: black">Produk</font></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Login">|Login|</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Foto"><font style="color: black">Foto</font></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Kompetisi""><font style="color: black">Kompetisi</font></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url()?>/Login"><font style="color: black">|Login|</font></a>
             </li>
           </ul>
         </div>
@@ -162,6 +164,9 @@
 	      </div>
 
 	    </section>
+ <div style='background-image:url(<?php echo base_url("/assets/img/footer.png")?>);height: 200px;padding-top: 100px;padding-left: 100px'>
+	    	<img style="max-height: 100px" src="<?php echo base_url("/assets/img/logoputih.png")?>" class="img-responsive" alt="Image">
+	    </div>
 
 
 		<!-- Bootstrap core JavaScript -->
